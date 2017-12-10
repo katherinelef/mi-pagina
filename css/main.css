@@ -193,38 +193,41 @@ header {
   color: white;
 }
 
-.parte1{
-  display: inline-block;
-}
-
-.parte2 {
-  display: none;
-}
 header h1 {
-  margin-left: 5%;
-  margin-right: 20%;
   color: white;
   font-family:cursive;
-  display: inline-block;
+  margin: 0;
 }
 
-h3 {
+.Nosotros , .Contactanos  {
+  margin-left: 20px;
+}
+.Nosotros h1, .Contactanos h1, h3 {
   color: #04788e;
   font-family:cursive;
 }
 
+nav {
+  position: relative;
+  left:15%;
+}
+
 header ul li {
   display: inline-block;
+  margin-right: 15px;
 }
 
 .servicios {
   background-color: #f0f0f0;
 }
+
+.servicios .images img{
+  height: 250px;
+  width: 100%;
+}
+
 .services div {
   border: 1px solid #04788e;
-}
-.services {
-  margin-top:40px;
 }
 
 .img-central {
@@ -249,6 +252,7 @@ input {
   margin: 10px;
 }
 
+
 .descripcion h3, p{
   margin: 10px;
 }
@@ -260,11 +264,19 @@ input {
 footer {
   background-color: #04788e;
   color: white;
+  height: 50px;
+  text-align: center;
+
+}
+
+footer p {
+  padding-top: 15px;
+  margin: 0;
 }
 
 /* Helpers */
 .view-mobile {
-  display: block;
+  display:block;
 }
 .view-desktop {
   display: none;
@@ -277,13 +289,3 @@ footer {
   .view-desktop {
     display: block;
   }
-
-  .parte1 {
-    display: none;
-  }
-
-  .parte2 {
-    display: inline-block;
-  }
-
-  
