@@ -1,4 +1,4 @@
-# Freelancer
+# Mi página
 
 * **Curso:** _Crea tu propia red social_
 * **Unidad:** _La web desde un móvil_
