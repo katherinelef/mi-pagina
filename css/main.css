@@ -132,7 +132,6 @@ body {
   .col-md-12 {
     width: 100%;
   }
-
   .col-md-offset-1 {
     margin-left: 8.33333333%;
   }
@@ -180,6 +179,7 @@ body {
   .col-md-offset-12 {
     margin-left: 100%;
   }
+}
 
 /* Estilos a la página*/
 header {
@@ -200,21 +200,21 @@ header ul li {
 }
 
 nav {
-  position: relative;
   left:15%;
+  position: relative;
 }
 
 .img-central {
   margin: 0;
 }
 .img-central img {
-  width: 100%;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-.Contactanos p {
-  margin: 0;
+.Contactanos p  {
+  margin:0;
 }
 
 .Nosotros , .Contactanos  {
@@ -226,25 +226,22 @@ nav {
   font-family:cursive;
 }
 
-.servicios {
-  background-color: #f0f0f0;
-}
-
 .servicios .images img{
+  box-shadow: 2px 2px 5px #999;
   height: 250px;
   width: 100%;
 }
 
-.services div {
-  border: 1px solid #04788e;
-}
-
-section {
-  margin-top: 40px;
+.descripcion, .button {
+  border: 1px solid #cecece;
 }
 
 .descripcion h3, p{
   margin: 10px;
+}
+
+section {
+  margin-top: 20px;
 }
 
 input {
@@ -258,19 +255,19 @@ input {
 
 .row {
   margin: 0;
-}
 
+}
 footer {
   background-color: #04788e;
   color: white;
   height: 50px;
-  margin-top: 40px;
   text-align: center;
+  margin-top: 40px;
 }
 
 footer p {
-  margin: 0;
   padding-top: 15px;
+  margin: 0;
 }
 
 /* Helpers */
